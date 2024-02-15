@@ -25,7 +25,7 @@ function calculateNAF(average, situation) {
 async function main() {
   const auth = new google.auth.GoogleAuth({
     keyFile:
-      "C://Users//victo//Desktop//Development//Vscode/TuntsRocks/credentials.json",
+      "./credentials.json",
     scopes: ["https://www.googleapis.com/auth/spreadsheets"],
   });
 
